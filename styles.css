@@ -6,6 +6,7 @@ body {
     background-color: #1F2937;
     padding: 16px 70px;
     margin-top: 0;
+    padding-bottom: 24px;
 }
 
 .header {
@@ -114,6 +115,11 @@ li {
     font-size: 20px;
 }
 
+.videos a{
+    text-decoration: none;
+    color: black;
+}
+
 .video-imagem {
     width: 300px;
     height: 170px;
@@ -133,14 +139,13 @@ li {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding:  0 20%;
+    padding: 10px 20%;
 }
 
 .frase div {
     font-style: italic;
     font-weight: 100;
-    text-align: center;
-    font-size: 36px;
+    font-size: 32px;
     color: #1F2937;
 }
 
@@ -148,4 +153,45 @@ li {
     font-weight: 700;
     text-align: end;
     font-size: 24px;
+    margin-top: 5px;
+}
+
+.spotify {
+    display: flex;
+    justify-content: center;
+    padding: 36px 0;
+    color: white;
+}
+
+.spotify .one {
+    background-color: #3882F6;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    padding: 26px;
+    border-radius: 16px;
+    gap: 10px;
+}
+
+.spotify .one img{
+    width: 36px;
+    height: auto;
+}
+
+.spotify a{
+    text-decoration: none;
+    color: white;
+}
+
+.one .botao{
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 8px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 24px;
 }
