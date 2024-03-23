@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .inicio {
@@ -77,6 +78,10 @@ body {
     flex: 1;
     align-self: center;
     text-align: right;
+}
+
+.one p {
+    font-size: 18px;
 }
 
 .one ul {
